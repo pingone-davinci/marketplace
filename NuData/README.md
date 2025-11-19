@@ -145,6 +145,32 @@ This node retrieves `nuDataWidgetData` from the journey state.
 - `Next` – The NuData update was successful; proceed to the next step in the Journey.  
 - `Error` – An error occurred during the retrieval of the NuData Score process.
 
+## NuData Captcha
+
+Displays the NuData Captcha for behavioral verification.
+
+### Inputs
+
+- `NUDATA_SCORE_RESPONSE` – Response from the NuData Score API.
+
+### Configuration
+
+| Property | Usage |
+|-----------|--------|
+| NuData SDK Base URL | The NuData SDK Base URL |
+| NuData Client ID | The NuData Client ID |
+| NuData SDK Version | The NuData SDK Version |
+
+### Outputs
+
+- `nudataCaptchaInfo` – The NuData captcha information.
+
+### Outcomes
+
+- `Next` – The NuData Captcha was completed and added to the shared state to be sent to NuData for correctness.  
+- `Error` – An error occurred during the NuData SDK initialization process.
+
+
 ## Troubleshooting
 
 If this node logs an error, review the log messages to find the reason for the error and address the issue appropriately.
