@@ -3,8 +3,17 @@
 This integration provides administrators with the ability to include the NuData Javascript SDK, retrieve the risk NuData Score, provide and the authentication outcome within authentication journeys:
 
 * [NuData Behavior Solutions](https://b2b.mastercard.com/identity/behavioral-solutions)
-## Compatibility
 
+## Table of Contents
+- [NuData Initialize](#nudata-initialize)
+- [NuData Score](#nudata-score)
+- [NuData Trigger MFA](#nudata-trigger-mfa)
+- [NuData Update](#nudata-update)
+- [NuData Captcha](#nudata-captcha)
+- [Troubleshooting](#troubleshooting)
+- [Support](#support)
+
+## Compatibility
 
 You can implement this node on the following systems:
 
