@@ -55,7 +55,7 @@ Click **Create Application**
 
 ### 4. Download docebo_connector.json template
 
-Download the docebo_connector.json file
+Download the [docebo_connector.json](https://github.com/ForgeRock/tntp-docebo/blob/main/docebo_connector.json) file
 
 ### 5. Set docebo connectors values
 
