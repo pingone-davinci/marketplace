@@ -55,7 +55,7 @@ Click **Create Application**
 
 ### 4. Download docebo_connector.json template
 
-Download the docebo_connector.json file
+Download the docebo_connector.json file from the marketplace using the download button [here](https://marketplace.pingone.com/item/docebo-saas-rest-connector-for-ping-advanced-identity-cloud)
 
 ### 5. Set docebo connectors values
 
